@@ -98,6 +98,26 @@
           padding: 2px;
           }
         </style>
+        <script language=javascript>
+          function show_date_time(){
+              window.setTimeout("show_date_time()", 1000);
+              BirthDay=new Date("10/04/2024 02:30:00");
+              today=new Date();
+              timeold=(today.getTime()-BirthDay.getTime());
+              sectimeold=timeold/1000
+              secondsold=Math.floor(sectimeold);
+              msPerDay=24*60*60*1000
+              e_daysold=timeold/msPerDay
+              daysold=Math.floor(e_daysold);
+              e_hrsold=(e_daysold-daysold)*24;
+              hrsold=Math.floor(e_hrsold);
+              e_minsold=(e_hrsold-hrsold)*60;
+              minsold=Math.floor((e_hrsold-hrsold)*60);
+              seconds=Math.floor((e_minsold-minsold)*60);
+              span_dt_dt.innerHTML='<font style=color:#6495ED>'+daysold+'</font> 天 <font style=color:#6495ED>'+hrsold+'</font> 时 <font style=color:#6495ED>'+minsold+'</font> 分 <font style=color:#6495ED>'+seconds+'</font> 秒';
+          }
+          show_date_time();
+      </script>
 		<div class="header">
           <h1>MCOCET</h1>
 			<h2>欢迎来到我的主页!</h2>
@@ -164,5 +184,10 @@
 	  </div>
     </div>
   </div>
+  <div>
+    <a>2024  @MCOCET</a>
+    <a>本站已运行：<span id=span_dt_dt style="color: #000000;"></span></a>
+  </div>
+  <foter><a href="https://icp.gov.moe/?keyword=20240276" target="_blank">萌ICP备20240276号</a></foter>
 </body>
 </html>
