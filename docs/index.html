@@ -34,34 +34,26 @@
 <body background="background.jpg" id="bodres">
   <div>
     <style>
-        ul
-        {
-            list-style-type:none;
-            margin:0;
-            padding:0;
+        .ul{
+          list-style-type:none;
+          margin:0;
+          padding:0;
         }
-        a:link,a:visited
-        {
-            display:block;
-            border-style:solid;
-            border-width:2px;
-            border-color:#98F5FF;
-            border-radius: 8px;
-            color:#ffffff;
-            background-color:#6495ED;
-            width:280px;
-            text-align:left;
-            padding:4px;
-            text-decoration:none;
-            text-transform:uppercase;
+          .aste{
+          display:block;
+          border-style:solid;
+          border-width:2px;
+          border-color:#98F5FF;
+          border-radius: 8px;
+          color:#ffffff;
+          background-color:#6495ED;
+          width:280px;
+          text-align:left;
+          padding:4px;
+          text-decoration:none;
+          text-transform:uppercase;
         }
-        a:hover,a:active
-        {
-            background-color:#6495ED;
-        }
-        </style>
-		    <style>
-          body {
+          .body {
           background-color: bisque;
 			  }
           .header {
@@ -97,8 +89,25 @@
           margin: 2px;
           padding: 2px;
           }
+          .nodec{
+          text-decoration: none;
+          color: #F9F9F9:
+          }
+          .footena{
+          width: 100%;
+	        height: 60px;
+	        line-height: 60px;
+        	background-color: #333333;
+	        color: #ECECEC;
+	        font-size: 14px;
+          border-radius: 10px;
+          }
+          .gio{
+          color:#ECECEC;font-size:12px;
+          text-decoration: none;
+          }
         </style>
-        <script language=javascript>
+        <script language="javascript">
           function show_date_time(){
               window.setTimeout("show_date_time()", 1000);
               BirthDay=new Date("10/04/2024 02:30:00");
@@ -114,7 +123,7 @@
               e_minsold=(e_hrsold-hrsold)*60;
               minsold=Math.floor((e_hrsold-hrsold)*60);
               seconds=Math.floor((e_minsold-minsold)*60);
-              span_dt_dt.innerHTML='<font style=color:#6495ED>'+daysold+'</font> 天 <font style=color:#6495ED>'+hrsold+'</font> 时 <font style=color:#6495ED>'+minsold+'</font> 分 <font style=color:#6495ED>'+seconds+'</font> 秒';
+              span_dt_dt.innerHTML='<font style=color:#6495ED>'+daysold+'</font> <font color="#E9E9E9">天</font> <font style=color:#6495ED>'+hrsold+'</font> <font color="#E9E9E9">时</font> <font style=color:#6495ED>'+minsold+'</font> <font color="#E9E9E9">分</font> <font style=color:#6495ED>'+seconds+'</font> <font color="#E9E9E9">秒</font>';
           }
           show_date_time();
       </script>
@@ -122,29 +131,29 @@
           <h1>MCOCET</h1>
 			<h2>欢迎来到我的主页!</h2>
 		</div>
-        <a href="https://space.bilibili.com/571407048">
-          <p class="js-my-replace-txt">B站主页</p>
+        <a class="aste" href="https://space.bilibili.com/571407048">
+          <p>B站主页</p>
         </a>
         <div> 
-        <section id="Quick_links">
+        <section>
           <h1>友情链接：</h1>
             <ol>
               <li>
-                <a href="https://fuibafuyu.net/">冬優ちゃんの小窝</a></li>
+                <a class="aste" href="https://fuibafuyu.net/">冬優ちゃんの小窝</a></li>
               <li>
-                <a href="https://ciyun.asia/">Ciyunの官方网站</a>
+                <a class="aste" href="https://ciyun.asia/">Ciyunの官方网站</a>
               </li>
               <li>
-                <a href="https://www.xkofficial.top/">星空Official的小窝</a>
+                <a class="aste" href="https://www.xkofficial.top/">星空Official的小窝</a>
               </li>
               <li>
-                <a href="https://firpe.cn/">FirPE</a>
+                <a class="aste" href="https://firpe.cn/">FirPE</a>
               </li>
               <li>
-                <a href="https://www.bilibili.com/">BiliBili</a>
+                <a class="aste" href="https://www.bilibili.com/">BiliBili</a>
               </li>
               <li>
-                <a href="https://mzh.moegirl.org.cn/">萌娘百科</a>
+                <a class="aste" href="https://mzh.moegirl.org.cn/">萌娘百科</a>
               </li>
             </ol>
           </section>
@@ -163,7 +172,7 @@
 	    </div>  
     <div class="bk_ftcc autopadding15 col-md-8 col-xs-12 ">
         <h2>
-	        <lhz data-id="14479_bk_78944_tt_1" data-pmkid="0" class="js-my-replace-txt"><span >音乐：</span></lhz>
+	        <lhz data-id="14479_bk_78944_tt_1" data-pmkid="0" class="js-my-replace-txt"><span>音乐：</span></lhz>
         </h2>
         <div class="lp">
           <div>
@@ -185,12 +194,25 @@
     </div>
   </div>
   <div>
-    <a>2024  @MCOCET</a>
+
     <br>
-    <a>本站由github.io驱动</a>
+    <a></a>
     <br>
-    <a>本站已正常运行：<span id=span_dt_dt style="color: #000000;"></span></a>
+    
   </div>
-  <foter><h3><a href="https://icp.gov.moe/?keyword=20240276" target="_blank">萌ICP备20240276号</a></h3></foter>
+  <foter><h3></h3></foter>
+	
+  
+  
+  <div data-id="14479" id="mypublic_bottom_edit" class="footena">
+    <a href="https://icp.gov.moe/?keyword=20240276" target="_blank" style="color: #E9E9E9; text-decoration: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img style="width:32px;height:32px;margin-bottom:-8px" src="https://icp.gov.moe/images/ico64.png" alt="图标加载失败">萌ICP备20240276号</a>
+	  <a class="gio" href="https://github.com"><b style="color: #e63d4f;font-size: 16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ♥ </b>本站由 github.io 驱动</a>
+    <a href="https://home.mcocet.top" style="color: #E9E9E9; text-decoration: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2024  @MCOCET</a>
+    <a style="color: #E9E9E9; text-decoration: none; float: right;">本站已正常运行：<span id="span_dt_dt" style="color: #000000;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+</div>
+
+
+
+
 </body>
 </html>
