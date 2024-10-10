@@ -5,12 +5,14 @@
     <link rel="icon" href="MCOCET.jpg">
     <meta charset="UTF-8">
     <style>
-        html { color-scheme: light dark; }
-        body { width: 35em; margin: 0 auto;
-        font-family: Tahoma, Verdana, Arial, sans-serif; }
-    </style>
-    <style>
-      #bodres {
+      .html {
+        color-scheme: light dark; 
+      }
+      .body {
+        width: 35em; margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+      }
+      .bodres {
         background-color:#87CEEB;
         background-size:100%;
         background-repeat:no-repeat;
@@ -30,16 +32,24 @@
       }
   </style>
 </head>
-
-<body background="background.jpg" id="bodres">
+<body background="background.jpg" class="bodres">
   <div>
     <style>
-        .ul{
-          list-style-type:none;
-          margin:0;
-          padding:0;
+        .hon{
+          display:block;
+          border-style:solid;
+          border-color:#98F5FF;
+          border-radius: 6px;
+          color:#ffffff;
+          background-color:#6495ED;
+          width:300px;
+          text-align:left;
+          text-decoration:none;
+          size:4;
+          font-size: 26px;
+          text-align: center;
         }
-          .aste{
+        .aste{
           display:block;
           border-style:solid;
           border-width:2px;
@@ -51,12 +61,8 @@
           text-align:left;
           padding:4px;
           text-decoration:none;
-          text-transform:uppercase;
         }
-          .body {
-          background-color: bisque;
-			  }
-          .header {
+        .header {
           border-radius: 16px;
           border: 2px;
           position: sticky;
@@ -64,7 +70,7 @@
           top: 0;
           backdrop-filter: blur(6px);
           }
-          .std_btn{
+        .std_btn{
           border:1px solid #eee;
           text-align:center;
           height:50px;
@@ -74,26 +80,26 @@
           background-color:#333;
           color:#fff;
           cursor:pointer;
-          }
-          .js-my-replace-txt{
+        }
+        .js-my-replace-txt{
           cursor:pointer;
           word-break: break-all;
-          }
-          .bk_ftcc{
+        }
+        .bk_ftcc{
           color:#000;
-          }
-          .lp{
+        }
+        .lp{
           border-left-style:solid;
           border-left: 5px solid #BBFFFF;
           border-radius: 0px;
           margin: 2px;
           padding: 2px;
-          }
-          .nodec{
+        }
+        .nodec{
           text-decoration: none;
-          color: #F9F9F9:
-          }
-          .footena{
+          color: #F9F9F9;
+        }
+        .footena{
           width: 100%;
 	        height: 60px;
 	        line-height: 60px;
@@ -101,11 +107,11 @@
 	        color: #ECECEC;
 	        font-size: 14px;
           border-radius: 10px;
-          }
-          .gio{
+        }
+        .gio{
           color:#ECECEC;font-size:12px;
           text-decoration: none;
-          }
+        }
         </style>
         <script language="javascript">
           function show_date_time(){
@@ -131,7 +137,7 @@
           <h1>MCOCET</h1>
 			<h2>欢迎来到我的主页!</h2>
 		</div>
-        <a class="aste" href="https://space.bilibili.com/571407048">
+        <a class="hon" href="https://space.bilibili.com/571407048">
           <p>B站主页</p>
         </a>
 	    <div class="bk_ftcc autopadding15 col-md-8 col-xs-12 ">
@@ -172,32 +178,18 @@
   <div> 
     <section>
       <h1>友情链接：</h1>
-        <ol>
-          <li>
-            <a class="aste" href="https://fuibafuyu.net/">冬優ちゃんの小窝</a>
-          </li>
+          <a class="aste" href="https://fuibafuyu.net/">冬優ちゃんの小窝</a>
           <br>
-          <li>
-            <a class="aste" href="https://ciyun.asia/">Ciyunの官方网站</a>
-          </li>
+          <a class="aste" href="https://ciyun.asia/">Ciyunの官方网站</a>
           <br>
-          <li>
-            <a class="aste" href="https://www.xkofficial.top/">星空Official的小窝</a>
-          </li>
+          <a class="aste" href="https://www.xkofficial.top/">星空Official的小窝</a>
           <br>
-          <li>
-            <a class="aste" href="https://firpe.cn/">FirPE</a>
-          </li>
+          <a class="aste" href="https://firpe.cn/">FirPE</a>
           <br>
-          <li>
-            <a class="aste" href="https://www.bilibili.com/">BiliBili</a>
-          </li>
+          <a class="aste" href="https://www.bilibili.com/">BiliBili</a>
           <br>
-          <li>
-            <a class="aste" href="https://mzh.moegirl.org.cn/">萌娘百科</a>
-          </li>
+          <a class="aste" href="https://mzh.moegirl.org.cn/">萌娘百科</a>
           <br>
-      </ol>
     </section>
   </div>
   <div data-id="14479" id="mypublic_bottom_edit" class="footena">
