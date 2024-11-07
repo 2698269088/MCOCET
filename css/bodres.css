@@ -1,0 +1,19 @@
+.bodres {
+        background-color:#87CEEB;
+        background-size:100%;
+        background-repeat:no-repeat;
+        background-attachment:fixed;
+        background-size:cover;
+        padding: 0px;
+        margin: 40px;
+        position: absolute;
+        width: 85%;
+        height: 85%;
+        top: 0px;
+        left: 0px;
+        border-style:solid;
+        border-width:0px;
+        border-color:#1E90FF;
+        border-radius: 16px;
+        
+      }
