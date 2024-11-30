@@ -4,4 +4,5 @@
 但不要提交到docs里面，本站点依靠docs运行。
 web：home.mcocet.top
 Server文件夹存储的是网页里面的超链接文件，css文件夹存储的是CSS样式文件，主页文件为index.html。
-这里建议使用nginx做web发布器，也可以使用已经制作好的其他发布程序。
+data文件夹存储网页的图片等数据。
+这里建议使用nginx做web发布器，但也可以使用已经制作好的其他发布程序。
