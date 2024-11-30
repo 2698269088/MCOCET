@@ -1,0 +1,7 @@
+.bcimg{
+    max-width: 640px;
+    max-height: 360px;
+    border-radius: 20px;
+    border-color:#87CEEB;
+    border-style: solid;
+}
