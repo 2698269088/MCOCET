@@ -1,0 +1,40 @@
+.header {
+        width: 100%;
+        height: 2000px;
+        font-size: 20px;
+        text-align: center;
+        background: rgb(112, 219, 233);
+    }
+    .buttom {
+        width: 100%;
+        height: 50px;
+        font-size: 20px;
+        text-align: center;
+        background: rgb(207, 250, 105);
+    }
+    .topa {
+        color: #000000;
+    }
+        
+    .topb {
+        position: fixed;
+        bottom: 50px;
+        right: 30px;
+        font-size: 18px;
+        background: #6495ED;
+        border-width:2px;
+        border-color:#98F5FF;
+        border: 2px solid #98F5FF;
+        border-radius: 6px;
+        width: 90px;
+        height: 50px;
+        line-height: 50px;
+        padding-left: 20px;
+        cursor: pointer;
+        display: none;
+        z-index: 111
+    }
+    .topb:hover {
+        color: #000000;
+        background: #FFFFFF;
+    }
