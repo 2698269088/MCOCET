@@ -1,0 +1,10 @@
+.headers {
+    border-radius:16px;
+    border:2px;
+    position: sticky;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.16);
+    border-style:solid;
+    border-color:#F8F5FF;
+    border-radius:6px;
+    backdrop-filter:blur(6px);
+  }
